@@ -1,0 +1,26 @@
+{
+  "name": "@kephrenh/axios-api-client",
+  "version": "1.0.5",
+  "description": "A reusable API client with Axios and authentication support",
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "readme": "README.md",
+  "scripts": {
+    "build": "tsc",
+    "prepublishOnly": "npm run build"
+  },
+  "keywords": [
+    "axios",
+    "api-client",
+    "authentication"
+  ],
+  "author": "Mohamed Amoussa",
+  "license": "MIT",
+  "dependencies": {
+    "axios": "^1.8.4"
+  },
+  "devDependencies": {
+    "typescript": "^5.8.2"
+  }
+}
